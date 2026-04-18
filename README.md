@@ -2,7 +2,7 @@
 
 Static snapshot of the Supplement Plan project, deployed via GitHub Pages.
 
-**Live site:** https://DocHogan.github.io/CPNP-public-snapshot/
+**Live site:** https://dochogan.github.io/CPNP-public-snapshot/
 
 ## What this is
 
@@ -14,8 +14,7 @@ Obsidian vault elsewhere. This repo is the *output artifact*.
 ## Updating
 
 Generated from source by a Quartz v4 build pipeline at
-`~/devspace/supplement-plan-site/`. To regenerate:
+`~/devspace/supplement-plan-site/`. To regenerate and publish in one step:
 
-1. Edit source documents in the Obsidian vault.
-2. `cd ~/devspace/supplement-plan-site && ./build.sh`
-3. `./deploy.sh` (in the same dir) — copies `public/` here, commits, pushes.
+    cd ~/devspace/supplement-plan-site
+    ./deploy.sh
